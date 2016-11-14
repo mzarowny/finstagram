@@ -9,7 +9,7 @@ body, input {
 }
 
 a {
-  color: #8da7b8;
+  color: #244751;
   text-decoration: none;
 }
 
@@ -85,10 +85,7 @@ main {
   display: block;
 }
 
-.photo img {
-  display: block;
-  width: 100%;
-}
+
 
 .actions {
   display: flex;
