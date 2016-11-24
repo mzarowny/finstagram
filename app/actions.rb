@@ -48,8 +48,9 @@ get '/' do
       text: "lunchtime! ;)"
     }]
   }
+    [@post_shark, @post_whale, @post_marlin].to_s
 
-  [@post_shark, @post_whale, @post_marlin].to_s
+  @posts = [@post_shark, @post_whale, @post_marlin]
 
-  erb(:index)
+  erb:index
 end
